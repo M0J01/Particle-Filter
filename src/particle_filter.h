@@ -17,7 +17,7 @@ struct Particle {
 	double x;
 	double y;
 	double theta;
-	double weight;
+	long double weight;
 	std::vector<int> associations;
 	std::vector<double> sense_x;
 	std::vector<double> sense_y;
@@ -60,6 +60,8 @@ public:
 	 *   standard deviation of yaw [rad]]
 	 */
 	void init(double x, double y, double theta, double std[]);
+
+
 
 	/**
 	 * prediction Predicts the state for the next time step
