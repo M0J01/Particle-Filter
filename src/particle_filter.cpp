@@ -27,7 +27,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	// NOTE: Consult particle_filter.h for more information about this method (and others in this file).
 
 	// Set number of particles
-	num_particles = 500;
+	num_particles = 750;
 
 	// Set Initial Particle Positions from GPS cords
 	default_random_engine gen;
@@ -46,7 +46,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 		p.y = dist_y(gen);
 		p.theta = dist_theta(gen);
 
-		// Add to Vectore
+		// Add to Particles Vector
 		particles.push_back(p);
 		weights.push_back(0);
 	}
@@ -72,7 +72,6 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 	double std_v = sqrt(std_x*std_x + std_y*std_y);
 
 	// Add Noise
-
 	std::normal_distribution<double> dist_v(velocity, std_v);
 	std::normal_distribution<double> dist_theta(yaw_rate, std_theta);
 
@@ -112,7 +111,7 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 		//particles[i].y = dist_y(gen);
 		//particles[i].theta = dist_theta(gen);
 
-		std::cout << theta_change << endl;
+		//std::cout << theta_change << endl;
 
 		particles[i].x = x_change;
 		particles[i].y = y_change;
@@ -127,25 +126,6 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 	//   observed measurement to this particular landmark.
 	// NOTE: this method will NOT be called by the grading code. But you will probably find it useful to 
 	//   implement this method and use it as a helper during the updateWeights phase.
-
-
-	// run through each of the observations
-
-	// translate observations of global map coords
-
-	// measured, translated, nearest
-
-	//for (int i = 0; i < num_particles; i++){
-
-		// run through each particles predicted observations
-
-		// compared predicted observation to map observation
-
-		// associate each predicted observation with observations
-
-
-	//}
-
 
 }
 
@@ -173,63 +153,86 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
 		// If there are Observations
 		if ((observations).size() > 0) {
-			// For each Observation
+
+			// Create a Best Landmark Matching List
+			vector<double> best_land_list(2*map_landmarks.landmark_list.size());
+			for (int s = 0; s < best_land_list.size(); s++){
+				best_land_list[s] = 100;
+			}
+
+			// For each observation
 			for (int j = 0; j < observations.size(); j++) {
+				// grab observation x/y
 				LandmarkObs obs = observations[j];
 				double x = obs.x;
 				double y = obs.y;
 
 				// Check if Observation is within sensor range
 				if (sqrt(pow(x, 2) + pow(y, 2)) < sensor_range) {
-
-					// Convert Landmark POS from Observation + Particle Position
-					double x_est = par_x + cos(par_theta)*x - sin(par_theta)*y;
-					double y_est = par_y + sin(par_theta)*x + cos(par_theta)*y;
+					// Convert Landmark pos from Observation to Particle pos
+					double x_est = par_x + cos(par_theta) * x - sin(par_theta) * y;
+					double y_est = par_y + sin(par_theta) * x + cos(par_theta) * y;
 
 					// Associate with nearest landmark
-
+					int id = -1;
 					double min = 100;
-					double min_x = 100;
-					double min_y = 100;
-					for (int k =0; k < map_landmarks.landmark_list.size(); k++){
+					// Check each landmark for distance between landmark and observation
+					for (int k = 0; k < map_landmarks.landmark_list.size(); k++) {
 						Map::single_landmark_s landmark = map_landmarks.landmark_list[k];
 						double land_x = landmark.x_f;
 						double land_y = landmark.y_f;
-						double landmark_distance = sqrt(pow(land_x,2) + pow(land_y,2));
-						// Ensure landmark is within sensor range
-						if ( landmark_distance < sensor_range){
-							double x_est_dist = land_x - x_est;
-							double y_est_dist = land_y - y_est;
-							double land_distance = sqrt(pow(y_est_dist,2) + pow(x_est_dist,2));
-							if (land_distance < min){
-								min = land_distance;
-								//land_id = map_landmarks.landmark_list[k].id_i;
-								min_x = land_x;
-								min_y = land_y;
-							}
+						int land_id = landmark.id_i;
+						double x_dist = land_x - x_est;
+						double y_dist = land_y - y_est;
+						double land_distance = sqrt(pow(y_dist, 2) + pow(x_dist, 2));
+						if (land_distance < min) {
+							min = land_distance;
+							id = land_id;
 						}
 					}
-					// ensure there was a landmark close enough
-					if (min_x < 100){
-						//MVGPDF
-						double denom = 1.0/(sqrt(abs(2.0*M_PI*std_land_x*std_land_y)));
-						double top = -(pow((x_est - min_x),2.0)/(2.0*std_land_x*std_land_x) + pow((y_est - min_y),2.0)/(2.0*std_land_y*std_land_y));
-						//cout << "X estimate " << x_est << ", X measurement " << min_x << endl;
-						//cout << "Y estimate " << y_est << ", Y measurement " << min_y << endl;
-						long double w = denom*exp(top);
-						//cout << "Weight " << w;
-						// sum over observations
-						weight *= w;
+					// Store most accurate landmark measurements in best list
+					if (id > -1) {
+						Map::single_landmark_s landmark = map_landmarks.landmark_list[id - 1];
+						double land_x = landmark.x_f;
+						double land_y = landmark.y_f;
+						double inc_x = best_land_list[2*id - 2];
+						double inc_y = best_land_list[2*id - 1];
+						double inc_distance = sqrt(pow(land_x - inc_x, 2) - pow(land_y - inc_y, 2));
+						double chal_distance = sqrt(pow(land_x - x, 2) - pow(land_y - y, 2));
+						if (chal_distance < inc_distance) {
+							best_land_list[2*id - 2] = x;
+							best_land_list[2*id - 1] = y;
+						}
 					}
 				}
 			}
+
+			// calculate weights for all best landmark estimates
+			for ( int t = 2; t < best_land_list.size(); t +=2) {
+				// if landmark estimate exists
+				if (best_land_list[t] < 100){
+					int id = t/2;
+					Map::single_landmark_s landmark = map_landmarks.landmark_list[id - 1];
+					double land_x = landmark.x_f;				// our landmark coord
+					double land_y = landmark.y_f;				// our landmark coord
+					double x_est = best_land_list[2*id - 2];	// our observation coord 	// could have used t - 2
+					double y_est = best_land_list[2*id - 1];	// our observation coord 	// could have used t - 1
+
+					//MVGPDF
+					double denom = 1.0/(sqrt(abs(2.0*M_PI*std_land_x*std_land_y)));
+					double top = -(pow((x_est - land_x),2.0)/(2.0*std_land_x*std_land_x) + pow((y_est - land_y),2.0)/(2.0*std_land_y*std_land_y));
+					long double w = denom*exp(top);
+					weight *= w;
+				}
+			}
+		}
 			// set particle weight
 			particles[i].weight = weight;
 			weights[i] = weight;
-		}
-
 	}
+
 }
+
 
 void ParticleFilter::resample() {
 	// TODO: Resample particles with replacement with probability proportional to their weight. 
@@ -254,21 +257,6 @@ void ParticleFilter::resample() {
 	}
 	particles = resampled_particles;
 
-
-
-/*
-	p3 = []
-	index = int(random.random() * N)
-	beta = 0.0
-	mw = max(w)
-	for i in range(N):
-	beta += random.random() * 2.0 * mw
-	while beta > w[index]:
-	beta -= w[index]
-	index = (index + 1) % N
-	p3.append(p[index])
-	p = p3
-*/
 
 }
 
