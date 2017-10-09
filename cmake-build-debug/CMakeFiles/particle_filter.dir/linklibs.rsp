@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 -lz -lssl -luv -luWS -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+=======
+-lz -lssl -luv -luWS -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e

@@ -28,6 +28,7 @@ The CXX compiler identification is GNU, found in "C:/Users/M0J0/Documents/001_Se
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_e7a41/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_e7a41.dir\build.make CMakeFiles/cmTC_e7a41.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -38,12 +39,25 @@ Linking C executable cmTC_e7a41.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e7a41.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_e7a41.dir/objects.a @CMakeFiles\cmTC_e7a41.dir\objects1.rsp
 C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e7a41.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e7a41.exe -Wl,--out-implib,libcmTC_e7a41.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e7a41.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a13f2/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a13f2.dir\build.make CMakeFiles/cmTC_a13f2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a13f2.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_a13f2.dir\testCCompiler.c.obj   -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_a13f2.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a13f2.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a13f2.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a13f2.dir/objects.a @CMakeFiles\cmTC_a13f2.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a13f2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a13f2.exe -Wl,--out-implib,libcmTC_a13f2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a13f2.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c272b/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c272b.dir\build.make CMakeFiles/cmTC_c272b.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -54,6 +68,18 @@ Linking C executable cmTC_c272b.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c272b.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c272b.dir/objects.a @CMakeFiles\cmTC_c272b.dir\objects1.rsp
 C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_c272b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c272b.exe -Wl,--out-implib,libcmTC_c272b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b24b3/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b24b3.dir\build.make CMakeFiles/cmTC_b24b3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b24b3.dir/CMakeCCompilerABI.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_b24b3.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_b24b3.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b24b3.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b24b3.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b24b3.dir/objects.a @CMakeFiles\cmTC_b24b3.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b24b3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b24b3.exe -Wl,--out-implib,libcmTC_b24b3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 Using built-in specs.
 COLLECT_GCC=C:\MinGW\bin\gcc.exe
 COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -63,9 +89,15 @@ Thread model: win32
 gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
 COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
 LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c272b.exe' '-mtune=generic' '-march=i586'
  c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccpXKzAa.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_c272b.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_c272b.dir/objects.a --no-whole-archive --out-implib libcmTC_c272b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c272b.exe' '-mtune=generic' '-march=i586'
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b24b3.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccUFnwsb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_b24b3.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_b24b3.dir/objects.a --no-whole-archive --out-implib libcmTC_b24b3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b24b3.exe' '-mtune=generic' '-march=i586'
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -73,6 +105,7 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
+<<<<<<< HEAD
   ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c272b/fast"]
   ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c272b.dir\build.make CMakeFiles/cmTC_c272b.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp']
@@ -83,6 +116,18 @@ Parsed C implicit link information from above output:
   ignore line: ["C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c272b.dir/objects.a]
   ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c272b.dir/objects.a @CMakeFiles\cmTC_c272b.dir\objects1.rsp]
   ignore line: [C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_c272b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c272b.exe -Wl,--out-implib,libcmTC_c272b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+=======
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b24b3/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b24b3.dir\build.make CMakeFiles/cmTC_b24b3.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b24b3.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_b24b3.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_b24b3.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b24b3.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b24b3.dir/objects.a]
+  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b24b3.dir/objects.a @CMakeFiles\cmTC_b24b3.dir\objects1.rsp]
+  ignore line: [C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b24b3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b24b3.exe -Wl,--out-implib,libcmTC_b24b3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\MinGW\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -97,13 +142,22 @@ Parsed C implicit link information from above output:
   ignore line: [c:/mingw/bin/../lib/gcc/]
   ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
   ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c272b.exe' '-mtune=generic' '-march=i586']
   link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccpXKzAa.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_c272b.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_c272b.dir/objects.a --no-whole-archive --out-implib libcmTC_c272b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b24b3.exe' '-mtune=generic' '-march=i586']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccUFnwsb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_b24b3.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_b24b3.dir/objects.a --no-whole-archive --out-implib libcmTC_b24b3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
     arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+<<<<<<< HEAD
     arg [-plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccpXKzAa.res] ==> ignore
+=======
+    arg [-plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccUFnwsb.res] ==> ignore
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -122,7 +176,11 @@ Parsed C implicit link information from above output:
     arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_c272b.exe] ==> ignore
+=======
+    arg [cmTC_b24b3.exe] ==> ignore
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
     arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> ignore
     arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> ignore
     arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -130,10 +188,17 @@ Parsed C implicit link information from above output:
     arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
     arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
     arg [--whole-archive] ==> ignore
+<<<<<<< HEAD
     arg [CMakeFiles\cmTC_c272b.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
     arg [libcmTC_c272b.dll.a] ==> ignore
+=======
+    arg [CMakeFiles\cmTC_b24b3.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_b24b3.dll.a] ==> ignore
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -173,6 +238,7 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_e1676/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_e1676.dir\build.make CMakeFiles/cmTC_e1676.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -183,6 +249,18 @@ Linking C executable cmTC_e1676.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e1676.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_e1676.dir/objects.a @CMakeFiles\cmTC_e1676.dir\objects1.rsp
 C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e1676.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e1676.exe -Wl,--out-implib,libcmTC_e1676.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e1676.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_42b91/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_42b91.dir\build.make CMakeFiles/cmTC_42b91.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42b91.dir/feature_tests.c.obj
+C:\MinGW\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_42b91.dir\feature_tests.c.obj   -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_42b91.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_42b91.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_42b91.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_42b91.dir/objects.a @CMakeFiles\cmTC_42b91.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_42b91.dir/objects.a -Wl,--no-whole-archive  -o cmTC_42b91.exe -Wl,--out-implib,libcmTC_42b91.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_42b91.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -195,6 +273,7 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f01f3/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f01f3.dir\build.make CMakeFiles/cmTC_f01f3.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -205,6 +284,18 @@ Linking C executable cmTC_f01f3.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f01f3.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f01f3.dir/objects.a @CMakeFiles\cmTC_f01f3.dir\objects1.rsp
 C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_f01f3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f01f3.exe -Wl,--out-implib,libcmTC_f01f3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f01f3.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_def72/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_def72.dir\build.make CMakeFiles/cmTC_def72.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_def72.dir/feature_tests.c.obj
+C:\MinGW\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_def72.dir\feature_tests.c.obj   -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_def72.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_def72.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_def72.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_def72.dir/objects.a @CMakeFiles\cmTC_def72.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_def72.dir/objects.a -Wl,--no-whole-archive  -o cmTC_def72.exe -Wl,--out-implib,libcmTC_def72.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_def72.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -217,6 +308,7 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_18efa/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_18efa.dir\build.make CMakeFiles/cmTC_18efa.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -227,6 +319,18 @@ Linking C executable cmTC_18efa.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_18efa.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_18efa.dir/objects.a @CMakeFiles\cmTC_18efa.dir\objects1.rsp
 C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_18efa.dir/objects.a -Wl,--no-whole-archive  -o cmTC_18efa.exe -Wl,--out-implib,libcmTC_18efa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_18efa.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_e9e57/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_e9e57.dir\build.make CMakeFiles/cmTC_e9e57.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9e57.dir/feature_tests.c.obj
+C:\MinGW\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_e9e57.dir\feature_tests.c.obj   -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_e9e57.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e9e57.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e9e57.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_e9e57.dir/objects.a @CMakeFiles\cmTC_e9e57.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e9e57.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e9e57.exe -Wl,--out-implib,libcmTC_e9e57.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e9e57.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -237,6 +341,7 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_74ae7/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_74ae7.dir\build.make CMakeFiles/cmTC_74ae7.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -247,12 +352,25 @@ Linking CXX executable cmTC_74ae7.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_74ae7.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_74ae7.dir/objects.a @CMakeFiles\cmTC_74ae7.dir\objects1.rsp
 C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_74ae7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_74ae7.exe -Wl,--out-implib,libcmTC_74ae7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_74ae7.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_5d6eb/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_5d6eb.dir\build.make CMakeFiles/cmTC_5d6eb.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d6eb.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_5d6eb.dir\testCXXCompiler.cxx.obj -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_5d6eb.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5d6eb.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5d6eb.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_5d6eb.dir/objects.a @CMakeFiles\cmTC_5d6eb.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_5d6eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5d6eb.exe -Wl,--out-implib,libcmTC_5d6eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5d6eb.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7dfe9/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7dfe9.dir\build.make CMakeFiles/cmTC_7dfe9.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -263,6 +381,18 @@ Linking CXX executable cmTC_7dfe9.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7dfe9.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_7dfe9.dir/objects.a @CMakeFiles\cmTC_7dfe9.dir\objects1.rsp
 C:\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_7dfe9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7dfe9.exe -Wl,--out-implib,libcmTC_7dfe9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d4c38/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d4c38.dir\build.make CMakeFiles/cmTC_d4c38.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4c38.dir/CMakeCXXCompilerABI.cpp.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_d4c38.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_d4c38.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d4c38.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d4c38.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d4c38.dir/objects.a @CMakeFiles\cmTC_d4c38.dir\objects1.rsp
+C:\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_d4c38.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d4c38.exe -Wl,--out-implib,libcmTC_d4c38.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 Using built-in specs.
 COLLECT_GCC=C:\MinGW\bin\g++.exe
 COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -272,9 +402,15 @@ Thread model: win32
 gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
 COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
 LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7dfe9.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
  c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccL6Yxqq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_7dfe9.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_7dfe9.dir/objects.a --no-whole-archive --out-implib libcmTC_7dfe9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7dfe9.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4c38.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccjj7qrX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_d4c38.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_d4c38.dir/objects.a --no-whole-archive --out-implib libcmTC_d4c38.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4c38.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -282,6 +418,7 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
+<<<<<<< HEAD
   ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7dfe9/fast"]
   ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7dfe9.dir\build.make CMakeFiles/cmTC_7dfe9.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp']
@@ -292,6 +429,18 @@ Parsed CXX implicit link information from above output:
   ignore line: ["C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7dfe9.dir/objects.a]
   ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_7dfe9.dir/objects.a @CMakeFiles\cmTC_7dfe9.dir\objects1.rsp]
   ignore line: [C:\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_7dfe9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7dfe9.exe -Wl,--out-implib,libcmTC_7dfe9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+=======
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d4c38/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d4c38.dir\build.make CMakeFiles/cmTC_d4c38.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d4c38.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_d4c38.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_d4c38.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d4c38.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d4c38.dir/objects.a]
+  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d4c38.dir/objects.a @CMakeFiles\cmTC_d4c38.dir\objects1.rsp]
+  ignore line: [C:\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_d4c38.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d4c38.exe -Wl,--out-implib,libcmTC_d4c38.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\MinGW\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -306,13 +455,22 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/mingw/bin/../lib/gcc/]
   ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
   ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7dfe9.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
   link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccL6Yxqq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_7dfe9.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_7dfe9.dir/objects.a --no-whole-archive --out-implib libcmTC_7dfe9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4c38.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccjj7qrX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_d4c38.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_d4c38.dir/objects.a --no-whole-archive --out-implib libcmTC_d4c38.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
     arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+<<<<<<< HEAD
     arg [-plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccL6Yxqq.res] ==> ignore
+=======
+    arg [-plugin-opt=-fresolution=C:\Users\M0J0\AppData\Local\Temp\ccjj7qrX.res] ==> ignore
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -335,7 +493,11 @@ Parsed CXX implicit link information from above output:
     arg [-u] ==> ignore
     arg [___deregister_frame_info] ==> ignore
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_7dfe9.exe] ==> ignore
+=======
+    arg [cmTC_d4c38.exe] ==> ignore
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
     arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> ignore
     arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> ignore
     arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -343,10 +505,17 @@ Parsed CXX implicit link information from above output:
     arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
     arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
     arg [--whole-archive] ==> ignore
+<<<<<<< HEAD
     arg [CMakeFiles\cmTC_7dfe9.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
     arg [libcmTC_7dfe9.dll.a] ==> ignore
+=======
+    arg [CMakeFiles\cmTC_d4c38.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_d4c38.dll.a] ==> ignore
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -387,6 +556,7 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_630ae/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_630ae.dir\build.make CMakeFiles/cmTC_630ae.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -397,6 +567,18 @@ Linking CXX executable cmTC_630ae.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_630ae.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_630ae.dir/objects.a @CMakeFiles\cmTC_630ae.dir\objects1.rsp
 C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_630ae.dir/objects.a -Wl,--no-whole-archive  -o cmTC_630ae.exe -Wl,--out-implib,libcmTC_630ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_630ae.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c0b6b/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c0b6b.dir\build.make CMakeFiles/cmTC_c0b6b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0b6b.dir/feature_tests.cxx.obj
+C:\MinGW\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_c0b6b.dir\feature_tests.cxx.obj -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_c0b6b.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c0b6b.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c0b6b.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c0b6b.dir/objects.a @CMakeFiles\cmTC_c0b6b.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_c0b6b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c0b6b.exe -Wl,--out-implib,libcmTC_c0b6b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c0b6b.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -462,6 +644,7 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c807b/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c807b.dir\build.make CMakeFiles/cmTC_c807b.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -472,6 +655,18 @@ Linking CXX executable cmTC_c807b.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c807b.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c807b.dir/objects.a @CMakeFiles\cmTC_c807b.dir\objects1.rsp
 C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_c807b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c807b.exe -Wl,--out-implib,libcmTC_c807b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c807b.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_37694/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_37694.dir\build.make CMakeFiles/cmTC_37694.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37694.dir/feature_tests.cxx.obj
+C:\MinGW\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_37694.dir\feature_tests.cxx.obj -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_37694.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_37694.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_37694.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_37694.dir/objects.a @CMakeFiles\cmTC_37694.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_37694.dir/objects.a -Wl,--no-whole-archive  -o cmTC_37694.exe -Wl,--out-implib,libcmTC_37694.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_37694.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -537,6 +732,7 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7a0da/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7a0da.dir\build.make CMakeFiles/cmTC_7a0da.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -547,6 +743,18 @@ Linking CXX executable cmTC_7a0da.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7a0da.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_7a0da.dir/objects.a @CMakeFiles\cmTC_7a0da.dir\objects1.rsp
 C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_7a0da.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7a0da.exe -Wl,--out-implib,libcmTC_7a0da.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7a0da.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a7b55/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a7b55.dir\build.make CMakeFiles/cmTC_a7b55.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7b55.dir/feature_tests.cxx.obj
+C:\MinGW\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_a7b55.dir\feature_tests.cxx.obj -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_a7b55.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a7b55.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a7b55.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a7b55.dir/objects.a @CMakeFiles\cmTC_a7b55.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_a7b55.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a7b55.exe -Wl,--out-implib,libcmTC_a7b55.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a7b55.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -612,6 +820,7 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7c5ab/fast"
 C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7c5ab.dir\build.make CMakeFiles/cmTC_7c5ab.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
@@ -622,6 +831,18 @@ Linking CXX executable cmTC_7c5ab.exe
 "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7c5ab.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_7c5ab.dir/objects.a @CMakeFiles\cmTC_7c5ab.dir\objects1.rsp
 C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_7c5ab.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7c5ab.exe -Wl,--out-implib,libcmTC_7c5ab.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7c5ab.dir\linklibs.rsp
+=======
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f3080/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f3080.dir\build.make CMakeFiles/cmTC_f3080.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3080.dir/feature_tests.cxx.obj
+C:\MinGW\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_f3080.dir\feature_tests.cxx.obj -c C:\Users\M0J0\Documents\001_Self_Driving_Car\CarND-Kidnapped-Vehicle-Project\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_f3080.exe
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f3080.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f3080.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f3080.dir/objects.a @CMakeFiles\cmTC_f3080.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_f3080.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f3080.exe -Wl,--out-implib,libcmTC_f3080.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f3080.dir\linklibs.rsp
+>>>>>>> d12b687f27aaae264654e07b1224ed6ffc65243e
 mingw32-make.exe[1]: Leaving directory 'C:/Users/M0J0/Documents/001_Self_Driving_Car/CarND-Kidnapped-Vehicle-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
