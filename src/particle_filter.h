@@ -1,5 +1,4 @@
-/*
- * particle_filter.h
+/* particle_filter.h
  *
  * 2D particle filter class.
  *  Created on: Dec 12, 2016
